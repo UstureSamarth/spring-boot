@@ -1,0 +1,14 @@
+emp:
+  info:
+    projects: P1,P2
+    id-details:
+      panCard: AMAPU3134H
+      adharNo: 831824539311
+    company:
+      name: Sarvatra
+      location: Baner
+      type: IT
+    mobile-numbers: 7385610506,8788517218,7385670953
+    skill-set: C,CPP
+    name: Samarth
+    id: 12010908
