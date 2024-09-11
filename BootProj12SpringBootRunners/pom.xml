@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>Application</groupId>
-	<artifactId>BootProj01-DependencyInjection</artifactId>
+	<artifactId>BootProj12SpringBootRunners</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BootProj01-DependencyInjection</name>
+	<name>BootProj12SpringBootRunners</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -47,10 +47,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.graalvm.buildtools</groupId>
-				<artifactId>native-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
