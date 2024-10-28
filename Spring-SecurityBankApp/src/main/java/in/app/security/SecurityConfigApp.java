@@ -23,7 +23,6 @@ public class SecurityConfigApp {
 	public SecurityFilterChain configure(HttpSecurity http) throws Exception {
 		System.out.println("SecurityConfigApp.configure()");
 		// authorize requests(HTTP)
-
 		http.authorizeHttpRequests().antMatchers("/").permitAll().
 				antMatchers("/offers").authenticated()
 				.antMatchers("/balance").hasAnyRole("CUSTOMER", "MANAGER")
